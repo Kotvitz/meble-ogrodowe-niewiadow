@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+:root {
+  --background: #f7f5f2;
+  --foreground: #2f2a26;
+
+  --primary: #8b5e3c;
+  --secondary: #5e6b4a;
+  --muted: #ddd4c8;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -7,4 +16,16 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-lora), serif;
 }
