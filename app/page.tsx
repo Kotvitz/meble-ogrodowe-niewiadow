@@ -1,14 +1,27 @@
+import ContactStrip from "@/components/ContactStrip";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+
 export default function HomePage() {
   return (
-    <main className="px-6 py-24">
-      <h1 className="text-5xl font-semibold">
-        Meble Ogrodowe Niewiadów
-      </h1>
+    <>
+      <Navbar />
 
-      <p className="mt-6 max-w-2xl text-lg text-black/70">
-        Altany, wiaty i drewniane konstrukcje ogrodowe wykonywane
-        na zamówienie na terenie całej Polski.
-      </p>
-    </main>
+      <main>
+        <section className="mx-auto max-w-7xl px-6 py-24">
+          <h1 className="max-w-4xl text-5xl font-semibold leading-tight lg:text-7xl">
+            Altany i drewniane konstrukcje ogrodowe na zamówienie
+          </h1>
+
+          <p className="mt-6 max-w-2xl text-lg text-black/70">
+            Tworzymy altany, wiaty, zadaszenia oraz meble ogrodowe
+            dopasowane do indywidualnych potrzeb klientów.
+          </p>
+        </section>
+      </main>
+
+      <ContactStrip />
+      <Footer />
+    </>
   );
 }

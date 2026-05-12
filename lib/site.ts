@@ -14,6 +14,6 @@ export const siteConfig = {
     phone: "+48602451798",
     phoneDisplay: "+48 602 451 798",
     tiktok: "https://www.tiktok.com/@sylwano.altany",
-    tiktokHandle: "@sylwano.altany",
+    tiktokHandle: "SYLWANO Altany",
   },
 };
