@@ -46,13 +46,6 @@ export default function ServicesPreview() {
                 {service.description}
               </p>
 
-              <Link
-                href="/oferta"
-                className="mt-8 inline-flex items-center font-medium transition hover:opacity-70"
-                style={{ color: "var(--primary)" }}
-              >
-                Dowiedz się więcej →
-              </Link>
             </article>
           ))}
         </div>
