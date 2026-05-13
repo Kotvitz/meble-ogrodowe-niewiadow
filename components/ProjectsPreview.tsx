@@ -30,7 +30,7 @@ export default function ProjectsPreview() {
         </div>
 
         <div className="mt-14 grid gap-6 md:grid-cols-2">
-          {projects.map((project) => (
+          {projects.slice(0, 4).map((project) => (
             <article
               key={project.title}
               className="group overflow-hidden rounded-4xl border"
