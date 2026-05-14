@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, Lora } from "next/font/google";
 import "./globals.css";
+import CookieBanner from "@/components/ui/CookieBanner";
+import CookieSettingsButton from "@/components/ui/CookieSettingsButtons";
+import ConsentScripts from "./cookies/ConsentScripts";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -27,6 +30,9 @@ export default function RootLayout({
     <html lang="pl">
       <body className={`${inter.variable} ${lora.variable}`}>
         {children}
+        <CookieBanner />
+        <CookieSettingsButton />
+        <ConsentScripts />
       </body>
     </html>
   );
