@@ -61,11 +61,6 @@ export default function ServicesPageContent() {
                 backgroundColor: "rgba(255,255,255,0.4)",
               }}
             >
-              <Home
-                className="size-7"
-                style={{ color: "var(--primary)" }}
-                aria-hidden="true"
-              />
 
               <h2 className="mt-5 text-2xl font-semibold">{service.title}</h2>
 
