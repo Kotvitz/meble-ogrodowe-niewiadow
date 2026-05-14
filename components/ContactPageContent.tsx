@@ -131,7 +131,7 @@ export default function ContactPageContent() {
               <li className="flex gap-4">
                 <MapPin
                   className="mt-1 size-5 shrink-0"
-                  style={{ color: "var(--primary)" }}
+                  style={{ color: "var(--secondary)" }}
                   aria-hidden="true"
                 />
 
@@ -147,7 +147,7 @@ export default function ContactPageContent() {
               <li className="flex gap-4">
                 <ReceiptText
                   className="mt-1 size-5 shrink-0"
-                  style={{ color: "var(--primary)" }}
+                  style={{ color: "var(--secondary)" }}
                   aria-hidden="true"
                 />
 
@@ -257,8 +257,7 @@ export default function ContactPageContent() {
               <button
                 type="submit"
                 disabled={!isValid || status === "sending"}
-                className="mt-2 rounded-full px-8 py-4 cursor-pointer font-medium text-white transition hover:opacity-90"
-                style={{ backgroundColor: "var(--primary)" }}
+                className="contact-strip-button mt-2 rounded-full px-8 py-4 cursor-pointer font-medium text-white transition"
               >
                 {status === "sending" ? "Wysyłanie..." : "Wyślij wiadomość"}
               </button>

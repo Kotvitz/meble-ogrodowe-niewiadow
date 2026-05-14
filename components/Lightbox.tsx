@@ -61,7 +61,7 @@ export default function Lightbox({
           onPrevious();
         }}
         disabled={isFirst}
-        className="fixed left-3 top-1/2 z-120 flex size-11 -translate-y-1/2 items-center cursor-pointer justify-center rounded-full border border-white/30 bg-black/60 text-white backdrop-blur transition hover:bg-black/80 disabled:cursor-not-allowed disabled:opacity-50 md:left-8 md:size-12"
+        className="fixed left-3 top-1/2 z-120 flex size-11 -translate-y-1/2 items-center cursor-pointer justify-center rounded-full border border-white/30 bg-black/60 text-white backdrop-blur transition hover:rgba(from var(--secondary) r g b / 0.7) disabled:cursor-not-allowed disabled:opacity-50 md:left-8 md:size-12"
       >
         <ChevronLeft className="size-7" />
       </button>
@@ -88,7 +88,7 @@ export default function Lightbox({
           onNext();
         }}
         disabled={isLast}
-        className="fixed right-3 top-1/2 z-120 flex size-11 -translate-y-1/2 items-center cursor-pointer justify-center rounded-full border border-white/30 bg-black/60 text-white backdrop-blur transition hover:bg-black/80 disabled:cursor-not-allowed disabled:opacity-50 md:right-8 md:size-12"
+        className="fixed right-3 top-1/2 z-120 flex size-11 -translate-y-1/2 items-center cursor-pointer justify-center rounded-full border border-white/30 bg-black/60 text-white backdrop-blur transition hover:rgba(from var(--secondary) r g b / 0.7) disabled:cursor-not-allowed disabled:opacity-50 md:right-8 md:size-12"
       >
         <ChevronRight className="size-7" />
       </button>

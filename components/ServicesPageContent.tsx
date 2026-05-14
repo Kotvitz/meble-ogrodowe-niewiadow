@@ -86,7 +86,7 @@ export default function ServicesPageContent() {
               >
                 <Icon
                   className="size-8"
-                  style={{ color: "var(--primary)" }}
+                  style={{ color: "var(--secondary)" }}
                   aria-hidden="true"
                 />
 

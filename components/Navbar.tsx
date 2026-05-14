@@ -69,7 +69,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className="text-lg font-medium transition hover:opacity-70"
+                className="text-lg font-medium transition hover:text-(--secondary)"
               >
                 {link.label}
               </Link>

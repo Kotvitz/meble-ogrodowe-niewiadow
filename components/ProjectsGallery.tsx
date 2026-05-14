@@ -49,7 +49,7 @@ export default function ProjectsGallery() {
               key={project.image}
               type="button"
               onClick={() => setActiveIndex(index)}
-              className="group overflow-hidden cursor-pointer rounded-4xl border text-left"
+              className="group overflow-hidden rounded-4xl border text-left cursor-pointer transition hover:border-(--secondary)"
               style={{ borderColor: "var(--muted)" }}
             >
               <div className="relative aspect-4/3 overflow-hidden">

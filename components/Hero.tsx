@@ -28,7 +28,7 @@ export default function Hero() {
 
             <Link
               href="/realizacje"
-              className="rounded-full border px-8 py-4 font-medium transition hover:bg-black/5"
+              className="rounded-full border px-8 py-4 font-medium transition hover:bg-(--secondary)"
               style={{ borderColor: "var(--muted)" }}
             >
               Zobacz realizacje

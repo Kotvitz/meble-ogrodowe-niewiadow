@@ -29,3 +29,13 @@ h5,
 h6 {
   font-family: var(--font-lora), serif;
 }
+
+.contact-strip-button {
+  background-color: var(--primary);
+  color: white;
+}
+
+.contact-strip-button:hover {
+  background-color: var(--secondary) !important;
+  color: white;
+}

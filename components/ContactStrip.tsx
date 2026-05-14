@@ -1,10 +1,5 @@
 import Link from "next/link";
-import {
-  Mail,
-  MapPin,
-  Phone,
-  ReceiptText,
-} from "lucide-react";
+import { Mail, MapPin, Phone, ReceiptText } from "lucide-react";
 import { siteConfig } from "@/lib/site";
 
 export default function ContactStrip() {
@@ -15,7 +10,6 @@ export default function ContactStrip() {
     >
       <div className="mx-auto grid max-w-7xl gap-14 px-6 py-16 lg:grid-cols-2">
         <div>
-
           <h2 className="mt-4 text-4xl font-semibold leading-tight">
             Szukasz solidnej altany lub wiaty?
           </h2>
@@ -28,8 +22,7 @@ export default function ContactStrip() {
           <div className="mt-8 flex items-center gap-4">
             <Link
               href="/kontakt"
-              className="rounded-full px-6 py-4 font-medium transition hover:opacity-90"
-              style={{ backgroundColor: "var(--primary)" }}
+              className="contact-strip-button rounded-full px-6 py-4 cursor-pointer font-medium transition"
             >
               Przejdź do kontaktu
             </Link>
@@ -40,20 +33,16 @@ export default function ContactStrip() {
           <h3 className="text-2xl font-semibold">Kontakt</h3>
 
           <ul className="mt-8 space-y-6 text-white/75">
-          
             <li className="flex gap-4">
               <MapPin className="mt-1 size-5 shrink-0" />
 
               <div>
                 <p>{siteConfig.company.legalName}</p>
 
-                <p className="mt-1">
-                  {siteConfig.company.address}
-                </p>
+                <p className="mt-1">{siteConfig.company.address}</p>
 
                 <p>
-                  {siteConfig.company.postalCode}{" "}
-                  {siteConfig.company.city}
+                  {siteConfig.company.postalCode} {siteConfig.company.city}
                 </p>
               </div>
             </li>
@@ -108,7 +97,6 @@ export default function ContactStrip() {
                 {siteConfig.contact.tiktokHandle}
               </a>
             </li>
-
           </ul>
         </div>
       </div>
