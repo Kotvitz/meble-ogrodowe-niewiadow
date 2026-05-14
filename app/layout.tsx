@@ -4,6 +4,9 @@ import "./globals.css";
 import CookieBanner from "@/components/ui/CookieBanner";
 import CookieSettingsButton from "@/components/ui/CookieSettingsButtons";
 import ConsentScripts from "./cookies/ConsentScripts";
+import ContactStrip from "@/components/ContactStrip";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -29,7 +32,10 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <body className={`${inter.variable} ${lora.variable}`}>
+        <Navbar />
         {children}
+        <ContactStrip />
+        <Footer />
         <CookieBanner />
         <CookieSettingsButton />
         <ConsentScripts />

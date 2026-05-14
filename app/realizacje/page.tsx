@@ -14,14 +14,9 @@ export const metadata: Metadata = {
 export default function ProjectsPage() {
   return (
     <>
-      <Navbar />
-
       <main>
         <ProjectsGallery />
       </main>
-
-      <ContactStrip />
-      <Footer />
     </>
   );
 }

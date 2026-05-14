@@ -14,14 +14,9 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
-      <Navbar />
-
       <main>
         <ContactPageContent />
       </main>
-
-      <ContactStrip />
-      <Footer />
     </>
   );
 }

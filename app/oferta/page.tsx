@@ -14,14 +14,9 @@ export const metadata: Metadata = {
 export default function ServicesPage() {
   return (
     <>
-      <Navbar />
-
       <main>
         <ServicesPageContent />
       </main>
-
-      <ContactStrip />
-      <Footer />
     </>
   );
 }
