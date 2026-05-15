@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 
 import ContactPageContent from "@/components/ContactPageContent";
-import ContactStrip from "@/components/ContactStrip";
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Kontakt | Meble Ogrodowe Niewiadów",

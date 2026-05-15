@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 
-import ContactStrip from "@/components/ContactStrip";
-import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
 import ProjectsPreview from "@/components/ProjectsPreview";
 import ServicesPreview from "@/components/ServicesPreview";
 

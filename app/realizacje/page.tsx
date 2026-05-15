@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
 
-import ContactStrip from "@/components/ContactStrip";
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
 import ProjectsGallery from "@/components/ProjectsGallery";
 
 export const metadata: Metadata = {
