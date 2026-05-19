@@ -5,7 +5,7 @@ import ProjectsPreview from "@/components/ProjectsPreview";
 import ServicesPreview from "@/components/ServicesPreview";
 
 export const metadata: Metadata = {
-  title: "Meble Ogrodowe Niewiadów",
+  title: "Sylwano - Altany, Wiaty, Zadaszenia",
   description:
     "Altany, wiaty, zadaszenia i drewniane konstrukcje ogrodowe wykonywane na zamówienie na terenie całej Polski.",
 };

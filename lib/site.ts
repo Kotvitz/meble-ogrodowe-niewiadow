@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Meble Ogrodowe Niewiadów",
+  name: "Sylwano - Altany, Wiaty, Zadaszenia",
 
   company: {
     legalName: "Sylwano Sylwester Popek",
@@ -10,10 +10,11 @@ export const siteConfig = {
   },
 
   contact: {
-    email: "sylwesterpopek@wp.pl",
+    email: "sylwanoaltany@gmail.com",
     phone: "+48602451798",
     phoneDisplay: "+48 602 451 798",
     tiktok: "https://www.tiktok.com/@sylwano.altany",
-    tiktokHandle: "SYLWANO Altany",
+    instagram: "https://www.instagram.com/sylwanoaltany",
+    facebook: "https://www.facebook.com/profile.php?id=61589668067490",
   },
 };

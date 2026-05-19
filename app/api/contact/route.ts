@@ -70,7 +70,7 @@ export async function POST(req: Request) {
     auth: { user: SMTP_USER, pass: SMTP_PASS },
   });
 
-  const subject = `Formularz kontaktowy – Meble Ogrodowe Niewiadów`;
+  const subject = `Formularz kontaktowy – Sylwano - Altany, Wiaty, Zadaszenia`;
 
   const text = [
     `Imię i nazwisko: ${data.name}`,

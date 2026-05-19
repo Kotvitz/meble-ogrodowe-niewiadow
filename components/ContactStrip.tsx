@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Mail, MapPin, Phone, ReceiptText } from "lucide-react";
+import { Mail, MapPin, Phone, ReceiptText, Share2 } from "lucide-react";
+import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 import { siteConfig } from "@/lib/site";
 
 export default function ContactStrip() {
@@ -38,9 +39,7 @@ export default function ContactStrip() {
 
               <div>
                 <p>{siteConfig.company.legalName}</p>
-
                 <p className="mt-1">{siteConfig.company.address}</p>
-
                 <p>
                   {siteConfig.company.postalCode} {siteConfig.company.city}
                 </p>
@@ -49,7 +48,6 @@ export default function ContactStrip() {
 
             <li className="flex gap-4">
               <ReceiptText className="mt-1 size-5 shrink-0" />
-
               <span>NIP: {siteConfig.company.nip}</span>
             </li>
 
@@ -76,26 +74,43 @@ export default function ContactStrip() {
             </li>
 
             <li className="flex gap-4">
-              <div className="mt-1 flex size-5 items-center justify-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  className="size-5"
-                  aria-hidden="true"
-                >
-                  <path d="M19.589 6.686a4.793 4.793 0 0 1-3.77-4.115V2h-3.193v13.766c0 1.57-1.272 2.84-2.84 2.84a2.84 2.84 0 0 1 0-5.681c.311 0 .61.05.89.142V9.821a6.035 6.035 0 0 0-.89-.067A6.033 6.033 0 0 0 3.75 15.787a6.033 6.033 0 0 0 6.034 6.034 6.034 6.034 0 0 0 6.035-6.034V8.745a7.95 7.95 0 0 0 4.681 1.514V7.066a4.765 4.765 0 0 1-.911-.38Z" />
-                </svg>
-              </div>
+              <Share2 className="mt-1 size-5 shrink-0" />
 
-              <a
-                href={siteConfig.contact.tiktok}
-                target="_blank"
-                rel="noreferrer"
-                className="hover:text-white"
-              >
-                {siteConfig.contact.tiktokHandle}
-              </a>
+              <div>
+                <p>Social media:</p>
+
+                <div className="mt-3 flex items-center gap-3">
+                  <a
+                    href={siteConfig.contact.tiktok}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="social-button"
+                    aria-label="TikTok"
+                  >
+                    <FaTiktok />
+                  </a>
+
+                  <a
+                    href={siteConfig.contact.instagram}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="social-button"
+                    aria-label="Instagram"
+                  >
+                    <FaInstagram />
+                  </a>
+
+                  <a
+                    href={siteConfig.contact.facebook}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="social-button"
+                    aria-label="Facebook"
+                  >
+                    <FaFacebookF />
+                  </a>
+                </div>
+              </div>
             </li>
           </ul>
         </div>

@@ -19,7 +19,7 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Meble Ogrodowe Niewiadów",
+  title: "Sylwano - Altany, Wiaty, Zadaszenia",
   description:
     "Altany, wiaty, zadaszenia i meble ogrodowe wykonywane na zamówienie.",
 };

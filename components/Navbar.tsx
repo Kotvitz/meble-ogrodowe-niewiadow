@@ -27,7 +27,7 @@ export default function Navbar() {
           className="text-2xl font-semibold tracking-tight"
           onClick={() => setIsOpen(false)}
         >
-          Meble Ogrodowe Niewiadów
+          Sylwano - Altany, Wiaty, Zadaszenia
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

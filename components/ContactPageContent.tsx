@@ -1,6 +1,7 @@
-"use client"
+"use client";
 
-import { Mail, MapPin, Phone, ReceiptText } from "lucide-react";
+import { Mail, MapPin, Phone, ReceiptText, Share2 } from "lucide-react";
+import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 import { siteConfig } from "@/lib/site";
 import { useMemo, useState } from "react";
 
@@ -152,6 +153,46 @@ export default function ContactPageContent() {
                 />
 
                 <span>NIP: {siteConfig.company.nip}</span>
+              </li>
+
+              <li className="flex gap-4">
+                <Share2 className="mt-1 size-5 shrink-0" />
+
+                <div>
+                  <p>Social media:</p>
+
+                  <div className="mt-3 flex items-center gap-3">
+                    <a
+                      href={siteConfig.contact.tiktok}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="social-button"
+                      aria-label="TikTok"
+                    >
+                      <FaTiktok />
+                    </a>
+
+                    <a
+                      href={siteConfig.contact.instagram}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="social-button"
+                      aria-label="Instagram"
+                    >
+                      <FaInstagram />
+                    </a>
+
+                    <a
+                      href={siteConfig.contact.facebook}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="social-button"
+                      aria-label="Facebook"
+                    >
+                      <FaFacebookF />
+                    </a>
+                  </div>
+                </div>
               </li>
             </ul>
           </aside>
