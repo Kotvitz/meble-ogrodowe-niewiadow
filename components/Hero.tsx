@@ -39,7 +39,7 @@ export default function Hero() {
         <div className="relative">
           <div className="relative overflow-hidden rounded-4xl">
             <Image
-              src="/images/hero.webp"
+              src="/images/hero_v2.webp"
               alt="Drewniana altana ogrodowa wykonana na zamówienie"
               width={900}
               height={1100}
