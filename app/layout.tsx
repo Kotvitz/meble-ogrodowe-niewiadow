@@ -19,7 +19,11 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Sylwano - Altany, Wiaty, Zadaszenia",
+  metadataBase: new URL("https://www.sylwanoaltany.pl"),
+  title: {
+    default: "Sylwano - Altany, Wiaty, Zadaszenia",
+    template: "%s | Sylwano - Altany, Wiaty, Zadaszenia",
+  },
   description:
     "Altany, wiaty, zadaszenia i meble ogrodowe wykonywane na zamówienie.",
 };

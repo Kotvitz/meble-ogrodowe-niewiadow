@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import ServicesPageContent from "@/components/ServicesPageContent";
 
 export const metadata: Metadata = {
-  title: "Oferta | Sylwano - Altany, Wiaty, Zadaszenia",
+  title: "Oferta",
   description:
     "Altany, wiaty, zadaszenia, meble ogrodowe i huśtawki wykonywane na zamówienie na terenie całej Polski.",
 };

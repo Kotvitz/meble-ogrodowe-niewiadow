@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import ContactPageContent from "@/components/ContactPageContent";
 
 export const metadata: Metadata = {
-  title: "Kontakt | Sylwano - Altany, Wiaty, Zadaszenia",
+  title: "Kontakt",
   description:
     "Skontaktuj się z nami w sprawie wyceny altany, wiaty lub drewnianej konstrukcji ogrodowej.",
 };
